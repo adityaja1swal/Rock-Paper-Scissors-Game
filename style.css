@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 5rem;
+  flex-wrap: wrap;
+  background-color: #11224E;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 2.5rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  gap: 2rem;
+}
+
+.img-container div {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  background-color: #11224E;
+  cursor: pointer;
+}
+
+.img-container div img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#player-score {
+  font-size: 2rem;
+}
+
+#computer-score {
+  font-size: 2rem;
+}
+
+.msg-container {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+}
+
+.msg-container p {
+  color: white;
+
+}
+
+.msg-box {
+  padding: 1em 1rem;
+  background-color: #11224E;
+  border-radius: 1rem;
+}
+
